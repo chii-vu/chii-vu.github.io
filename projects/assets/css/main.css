@@ -2462,6 +2462,31 @@ input[type="radio"] + label:before {
   }
 }
 
+/* Video */
+
+.video {
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.video iframe {
+  border-radius: 4px;
+  display: block;
+}
+
+.video.left {
+  float: left;
+  padding: 0 1.5em 1em 0;
+}
+
+@media screen and (max-width: 736px) {
+  .video.main {
+    margin: 0 0 2em 0;
+  }
+}
+
 /* Table */
 
 .table-wrapper {
