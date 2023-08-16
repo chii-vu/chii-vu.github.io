@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Projects</title>
+    <title>Projects - ScrumFaster</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -19,7 +19,7 @@
       <header id="header">
         <div class="inner">
           <!-- Logo -->
-          <a href="../index.html#second" class="logo">
+          <a href="../index.html#projects" class="logo">
             <span class="symbol"><img src="images/logo.svg" alt="" /></span
             ><span class="title">Projects</span>
           </a>
@@ -42,7 +42,7 @@
           <li><a href="">Clone Validation</a></li>
           <li><a href="">Poem Scraper</a></li>
           <li><a href="">VizSciFlow</a></li>
-          <li><a href="">CELER</a></li>
+          <li><a href="../projects/celer.html">CELER</a></li>
         </ul>
       </nav>
 
@@ -50,7 +50,20 @@
       <div id="main">
         <div class="inner">
           <h1>ScrumFaster</h1>
-          <span class="image main"
+          <!-- Video Demo -->
+          <!-- <span class="video left">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/9QoKyiOdiJc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </span> -->
+
+          <span class="image fit"
             ><img src="images/ScrumFasterSS.png" alt=""
           /></span>
           <h2>Overview</h2>
@@ -63,17 +76,69 @@
             and track the group’s progress using graphical visualizations such
             as velocity graphs, burndown charts, and cumulative flow. Anyone
             utilizing the Scrum flavour of Agile could use this software to
-            complete their projects.
+            complete their projects.<br />
           </p>
-          <h2>Tech Stack</h2>
+          <h2>Architecture & Design</h2>
           <p>
-            ScrumFaster is a Java application that uses JavaFX for the GUI and
-            MySQL for the database. The application is built using the Model
-            View Controller (MVC) design pattern to separate the data model, the
-            user interface, and the controller logic into three separate
-            components.
+            Our tech stack consists of JavaFX for the GUI and MySQL for the
+            database. The application is built using the Model View Controller
+            (MVC) design pattern to separate the data model, the user interface,
+            and the controller logic into three separate components.
           </p>
-          <!-- button to view on github-->
+          <!-- <span class="image fit"
+            ><img src="images/SF_prototype.png" alt=""
+          /></span> -->
+          <p>
+            In the initial phases of the project, a comprehensive design
+            approach was undertaken to establish a clear roadmap for the
+            development of the application. It encompassed the creation of five
+            personae, further broken down into user stories, and various
+            diagrams to illustrate the flow of the application and how the user
+            would interact with it.
+          </p>
+
+          <h3>Personae</h3>
+          <div class="box alt">
+            <div class="row gtr-uniform">
+              <div class="col-4">
+                <span class="image fit"
+                  ><img src="images/pic01.jpg" alt=""
+                /></span>
+              </div>
+              <div class="col-4">
+                <span class="image fit"
+                  ><img src="images/pic02.jpg" alt=""
+                /></span>
+              </div>
+              <div class="col-4">
+                <span class="image fit"
+                  ><img src="images/pic03.jpg" alt=""
+                /></span>
+              </div>
+              <div class="col-4">
+                <span class="image fit"
+                  ><img src="images/pic03.jpg" alt=""
+                /></span>
+              </div>
+              <div class="col-4">
+                <span class="image fit"
+                  ><img src="images/pic01.jpg" alt=""
+                /></span>
+              </div>
+            </div>
+          </div>
+
+          <h3>Component Diagram</h3>
+          <span class="image fit"
+            ><img src="images/scrumfaster_component_diagram.png" alt=""
+          /></span>
+
+          <h3>UML Diagram</h3>
+          <span class="image fit"
+            ><img src="images/ScrumFaster_UML_class_diagram.png" alt=""
+          /></span>
+
+          <!-- Button to view on github-->
           <a
             href="https://github.com/chii-vu/ScrumFaster.git"
             class="button primary small"
